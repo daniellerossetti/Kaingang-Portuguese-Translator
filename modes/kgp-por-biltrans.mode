@@ -1,0 +1,2 @@
+
+  lt-proc -w '/home/drosset1/ling073/ling073-kgp-por/kgp-por.automorf.bin' | cg-proc -w -1 -n '/home/drosset1/ling073/ling073-kgp-por/kgp-por.rlx.bin' | apertium-pretransfer| lt-proc -b '/home/drosset1/ling073/ling073-kgp-por/kgp-por.autobil.bin' 

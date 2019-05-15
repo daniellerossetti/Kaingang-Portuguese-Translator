@@ -1,0 +1,83 @@
+<rules>
+  <!--
+    This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
+    Add your own rules within <rule> here, using the resources below as a guide
+  -->
+
+  <rule>
+    <match lemma="wind"/>
+    <match lemma="power" tags="n.*">
+      <select lemma="energía" tags="n.*"/>
+    </match>
+  </rule>
+
+  <!--
+    This rule chooses "fruta" as the translation for "kanẽ" when preceded by "ka".
+    should translate to fruta: Ka kanẽ kar vỹ, fynfyn tĩ.
+    should translate to olho: Fi kanẽ ki tãnh ja vỹ kãr nĩ.
+  -->
+
+  <rule>
+   <match lemma="ka"/>
+   <match lemma="kanẽ" tags="n">
+      <select lemma="fruta" tags="n.*"/>
+   </match>
+  </rule>
+
+
+  <rule>
+   <match lemma="ã" tags="prn">
+      <select lemma="tu" tags="prn.*"/>
+   </match>
+  </rule>
+
+  <!--
+    This rule chooses "semente" as the translation for "fy" when preceded by several words for kinds of plants.
+    A regra escolhe "semente" como a tradução para "fy" quando a palavra está precedida por nome de planta.
+  -->
+
+  <rule>
+    <or>
+      <match lemma="abóbora"/>
+      <match lemma="planta"/>
+      <match lemma="pinheiro"/>
+      <match lemma="plantação"/>
+    </or>
+    <match lemma="fy" tags="n">
+     <select lemma="semente" tags="n"/>
+    </match>
+  </rule>
+
+  <rule>
+    <or>
+      <match lemma="fruta"/>
+      <match lemma="planta"/>
+      <match lemma="pinheiro"/>
+      <match lemma="plantação"/>
+    </or>
+    <match lemma="rã" tags="n">
+     <select lemma="maduro" tags="adj"/>
+    </match>
+  </rule>
+
+  <rule>
+    <or>
+      <match lemma="galinha"/>
+      <match lemma="índio"/>
+      <match lemma="índios"/>
+    </or>
+    <match lemma="krĩ" tags="n">
+      <select lemma="cabeça" tags="n"/>
+    </match>
+  </rule>
+</rules>
+
+
+
+<!--
+ Resources:
+    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    http://wiki.apertium.org/wiki/Lexical_selection
+    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->

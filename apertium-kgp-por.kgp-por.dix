@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <!-- Define the alphabet below. -->
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèẼẽễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="tn"              c="Was in Portuguese Dictionary--don't know meaning"/>
+    <sdef n="mf"              c="Was in Portuguese Dictionary--maybe unisex?"/>
+    <sdef n="dep"              c="Was in Kaingang Dictionary--Dependant nouns"/>
+    <sdef n="nf"              c="Not feminine"/>
+
+    <sdef n="n"               c="Noun"/>
+    <sdef n="np"              c="Proper noun"/>
+    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="vbmod"           c="Modal verb"/>
+    <sdef n="vaux"            c="Auxiliary verb"/>
+    <sdef n="vbser"           c="'To be' verb"/>
+    <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="cnjsub"          c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="pr"              c="Preposition"/>
+    <sdef n="adv"             c="Adverb"/>
+    <sdef n="ij"              c="Interjection"/>
+    <sdef n="adj"             c="Adjective"/>
+    <sdef n="prn"             c="Pronoun"/>
+
+    <sdef n="cir"             c="Circumstance Marker"/>
+    <sdef n="want"             c="Circumstance Marker"/>
+    <sdef n="a"               c="Aspect Marker"/>
+    <sdef n="mod"               c="Modal Marker"/>
+    <sdef n="su"               c="Subject Marker"/>
+    <sdef n="o"               c="Opinion Marker"/>
+    <sdef n="fut"             c="Future Marker"/>
+    <sdef n="ex"              c="Existence Marker"/>
+    <sdef n="erg"             c="Ergative Marker"/>
+
+    <sdef n="vcir"             c="Verb of Circumstance"/>
+    <sdef n="conj"            c="Conjunction"/>
+    <sdef n="intj"            c="Interjection"/>
+
+    <sdef n="dem"             c="Demonstrative Pronoun"/>
+    <sdef n="int"             c="Interrogative Pronoun"/>
+    <sdef n="pes"             c="Personal Pronoun"/>
+    <sdef n="ref"             c="Relative Pronoun"/>
+    <sdef n="rel"             c="Reflexive Pronoun"/>
+    <sdef n="prx"             c="Proximal Pronoun"/>
+    <sdef n="dst"             c="Distal Pronoun"/>
+    <sdef n="subv"            c="Substantivator?"/>
+    <sdef n="voc"             c="Vocative"/>
+
+    <sdef n="v"               c="Verb"/>
+    <sdef n="sv"               c="Semi-transitive"/>
+    <sdef n="iv"              c="Intransitive"/>
+    <sdef n="tv"              c="Transitive"/>
+
+    <sdef n="attr"            c="Attributive"/>
+    <sdef n="top"             c="Toponym"/>
+    <sdef n="ant"             c="Anthroponym"/>
+    <sdef n="cog"             c="Cognomen"/>
+    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Altres / misc proper nouns"/>
+
+    <sdef n="pers"            c="Personal pronoun"/>
+    <sdef n="res"             c="Reciprocal pronoun"/>
+
+    <sdef n="det"             c="Determiner"/>
+    <sdef n="pos"             c="Possessive"/>
+
+    <sdef n="p1"              c="1st person"/>
+    <sdef n="p2"              c="2nd person"/>
+    <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="nt"              c="Neuter"/>
+    <sdef n="ut"              c="Utrum"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+    <sdef n="un"              c="No gender"/>
+
+    <sdef n="sg"              c="Singular"/>
+    <sdef n="du"              c="Dual"/>
+    <sdef n="pl"              c="Plural"/>
+    <sdef n="sp"              c="Singular / plural"/>
+
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="def"             c="Definite"/>
+
+    <sdef n="nom"             c="Nominative"/>
+    <sdef n="acc"             c="Accusative"/>
+    <sdef n="gen"             c="Genitive"/>
+
+    <sdef n="itg"             c="Question word / interrogative"/>
+    <sdef n="qnt"             c="Quantifier"/>
+    <sdef n="neg"             c="Negative"/>
+    <sdef n="emph"            c="Emphatic"/>
+
+    <sdef n="inf"             c="Infinitive"/>
+    <sdef n="pres"            c="Present"/>
+    <sdef n="imp"             c="Imperative"/>
+    <sdef n="pret"            c="Preterite"/>
+    <sdef n="pp"              c="Perfect participle"/>
+    <sdef n="pprs"            c="Present participle"/>
+    <sdef n="pasv"            c="Passive"/>
+    <sdef n="actv"            c="Active voice"/>
+
+    <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="pst"             c="Positive"/>
+    <sdef n="comp"            c="Comparative"/>
+    <sdef n="sup"             c="Superlative"/>
+
+    <sdef n="ord"             c="Ordinal"/>
+    <sdef n="acr"             c="Acronym"/>
+    <sdef n="unc"             c="Uncountable"/>
+
+    <sdef n="num"             c="Numeral"/>
+    <sdef n="sent"            c="Sentence end"/>
+    <sdef n="cm"              c="Comma"/>
+    <sdef n="apos"            c="Apostrophe"/>
+    <sdef n="guio"            c="Dash"/>
+    <sdef n="lpar"            c="Left parenthesis"/>
+    <sdef n="rpar"            c="Right parenthesis"/>
+    <sdef n="lquot"           c="Left quote"/>
+    <sdef n="rquot"           c="Right quote"/>
+
+    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+  </sdefs>
+
+   <section id="main" type="standard">
+      <!-- Define entries within <e> here. -->
+
+      <!--1599 Sỹ inh kósin kusón kãtĩg vẽ. Vim para dar injeção no meu filho.-->
+      <e><p><l>sỹ<s n="cir"/></l>                        <r>de<b />mim<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>sỹ<s n="cir"/></l>                        <r>por<b />meio<b />de<b />mim<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>inh<s n="prn"/></l>                       <r>meu<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>inh<s n="prn"/></l>                       <r>de<b />mim<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>kósin<s n="n"/></l>                       <r>filho<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kusón<s n="v"/><s n="tv"/><s n="sg"/></l> <r>perfurar<s n="vblex"/></r></p></e>
+      <e><p><l>kusón<s n="v"/><s n="tv"/><s n="sg"/></l> <r>dar<b />injeção<s n="vblex"/></r></p></e>
+      <e><p><l>kãtĩg<s n="v"/><s n="iv"/><s n="sg"/></l> <r>chegar<s n="vblex"/></r></p></e>
+      <e><p><l>kãtĩg<s n="v"/><s n="iv"/><s n="sg"/></l> <r>vir<s n="vblex"/></r></p></e>
+      <e><p><l>vẽ<s n="a"/></l>                          <r>é<s n="vblex"/></r></p></e>
+      <e><p><l>vẽ<s n="a"/></l>                          <r>era<s n="vblex"/></r></p></e>
+      <e><p><l>vẽ<s n="a"/></l>                          <r>ser<s n="vblex"/></r></p></e>
+
+      <!-- 2681 Tãnh jũn kym ẽg tĩ, kỹ ẽg tóg, ti fár tar ẽn vãvãm tĩ, jó ẽg ti
+      fár tãnãj ẽn mré ti kãtá ke ẽn ko tĩ, tãnh kaju ti. Cortamos o palmito,
+      jogamos fora a casca dura e comemos a casca mole com o coração.-->
+      <e><p><l>tãnh<s n="n"/></l>                        <r>palmeira<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jũn<s n="n"/></l>                         <r>palmito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kym<s n="v"/><s n="tv"/><s n="sg"/></l>   <r>cortar<s n="vblex"/></r></p></e>
+      <e><p><l>ẽg<s n="prn"/></l>                        <r>nosso<s n="prn"/><s n="tn"/></r></p></e>
+      <!--<e><p><l>tĩ<s n="a"/></l>                          <r>tendo<b />ido<s n="vblex"/></r></p></e>-->
+      <e><p><l>tĩ<s n="a"/></l>                          <r>habitualmente<s n="adv"/></r></p></e>
+      <e><p><l>kỹ<s n="conj"/></l>                       <r>então<s n="adv"/></r></p></e>
+      <e><p><l>kỹ<s n="conj"/></l>                       <r>por<b />causa<b />de<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tóg<s n="su"/></l>                        <r>ele<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>ti<s n="prn"/></l>                        <r>dele<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>ti<s n="prn"/></l>                        <r>lhe<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>ti<s n="prn"/></l>                        <r>seu<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>fár<s n="n"/></l>                         <r>pele<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fár<s n="n"/></l>                         <r>casca<s n="n"/><s n="f"/></r></p></e>
+      <!--tar?-->
+      <e><p><l>vãvãm<s n="v"/><s n="tv"/><s n="pl"/></l> <r>descartar<s n="vblex"/></r></p></e>
+      <e><p><l>vãvãm<s n="v"/><s n="tv"/><s n="pl"/></l> <r>vender<s n="vblex"/></r></p></e>
+      <e><p><l>jó<s n="conj"/></l>                       <r>senão<s n="cnjcoo"/></r></p></e>
+      <e><p><l>jó<s n="cir"/></l>                        <r>antes<s n="adv"/></r></p></e>
+      <e><p><l>jó<s n="cir"/></l>                        <r>em<b />frente<s n="adv"/></r></p></e>
+      <e><p><l>jo<s n="conj"/></l>                       <r>senão<s n="cnjcoo"/></r></p></e>
+      <e><p><l>jo<s n="cir"/></l>                        <r>antes<s n="adv"/></r></p></e>
+      <e><p><l>jo<s n="cir"/></l>                        <r>em<b />frente<s n="adv"/></r></p></e>
+      <e><p><l>tãnãj<s n="n"/></l>                       <r>mole<s n="adj"/><s n="mf"/></r></p></e> <!--DEP-->
+      <e><p><l>tãnẽj<s n="n"/></l>                       <r>mole<s n="adj"/><s n="mf"/></r></p></e> <!--DEP-->
+      <e><p><l>mré<s n="cir"/></l>                       <r>com<s n="pr"/></r></p></e>
+      <!--kãtá?-->
+      <e><p><l>ke<s n="n"/></l>                          <r>sobra<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ke<s n="n"/></l>                          <r>resto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ke<s n="v"/><s n="iv"/></l>               <r>no<b />futuro<s n="adv"/></r></p></e>
+      <e><p><l>mré<b />ke<s n="mod"/></l>                <r>parente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ko<s n="v"/><s n="tv"/></l>               <r>comer<s n="vblex"/></r></p></e>
+      <e><p><l>kaju<s n="v"/></l>                        <r>empurrar<s n="vblex"/></r></p></e>
+      <e><p><l>ki<b />gỹ<s n="v"/></l>                   <r>empurrar<s n="vblex"/></r></p></e>
+
+      <!--3222 Kejẽn ũ tóg ẽg pãnĩ tá ẽg jé prẽr tĩ, kỹ ẽg tóg, vĩrĩn ke kỹ ti
+      mĩ ẽvãnh kỹ, ti mré vĩ mũ sir. Às vezes alguém nos chama nas nossas
+      costas, aí nós nos viramos para olhá-lo e falar com ele.-->
+      <e><p><l>kejẽn<s n="cir"/></l>                  <r>às<b />vezes<s n="adv"/></r></p></e>
+      <!--<e><p><l>kejẽn<s n="cir"/></l>              <r>um<b />dia<s n=" "/></r></p></e>-->
+      <!--<e><p><l>kejẽn<s n="cir"/></l>              <r>algum<b />tempo<s n=" "/></r></p></e>-->
+      <e><p><l>pãnĩ<s n="n"/></l>                     <r>costas<s n="n"/><s n="f"/></r></p></e> <!--DEP-->
+      <e><p><l>pãnĩ<b />tá<s n="cir"/></l>            <r>atrás<s n="adv"/></r></p></e>
+      <e><p><l>jé<b />prẽr<s n="v"/></l>              <r>chamar<s n="vblex"/></r></p></e>
+      <e><p><l>vĩrĩn<b />ke<s n="v"/><s n="iv"/></l>  <r>virar-se<s n="vblex"/></r></p></e>
+      <e><p><l>mĩ<s n="cir"/></l>                     <r>dentro<s n="adv"/></r></p></e> <!--dentro, se movendo-->
+      <e><p><l>ẽvãnh<s n="v"/><s n="iv"/></l>         <r>observar<s n="vblex"/></r></p></e>
+      <e><p><l>ẽvãnh<s n="v"/><s n="iv"/></l>         <r>enxergar<s n="vblex"/></r></p></e>
+      <e><p><l>vĩ<s n="n"/></l>                       <r>palavra<s n="n"/><s n="f"/></r></p></e> <!--DEP-->
+      <e><p><l>vĩ<s n="n"/></l>                       <r>discurso<s n="n"/><s n="m"/></r></p></e> <!--DEP-->
+      <e><p><l>mũ<s n="a"/></l>                       <r>fazendo<s n="vblex"/></r></p></e>
+      <e><p><l>mũ<s n="v"/><s n="iv"/><s n="pl"/></l> <r>ir<s n="vblex"/></r></p></e>
+      <e><p><l>mũ<s n="v"/><s n="iv"/><s n="pl"/></l> <r>andar<s n="vblex"/></r></p></e>
+      <e><p><l>sir<s n="o"/></l>                      <r>então<s n="adv"/></r></p></e>
+      <e><p><l>sir<s n="o"/></l>                      <r>daí<s n="cnjadv"/></r></p></e>
+      <e><p><l>sir<s n="o"/></l>                      <r>assim<s n="adv"/></r></p></e>
+
+      <!--1454 Kejẽn ẽg tóg, re ra kutẽ tĩ, ẽg tỹ ĩn kãkã nĩ ra, kỹ ẽg tóg,
+      jãnkã nón kỹ króm ke tĩ sir. Às vezes quando saímos para fora da casa
+      abrimos a porta e saímos.-->
+      <e><p><l>re<s n="n"/></l>                         <r>grama<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>re<s n="n"/></l>                         <r>campo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>re<s n="n"/></l>                         <r>fora<s n="adv"/></r></p></e> <!--fora de casa-->
+      <e><p><l>re<s n="v"/><s n="iv"/><s n="pl"/></l>   <r>embriagar-se<s n="vblex"/></r></p></e>
+      <e><p><l>re<s n="v"/><s n="iv"/><s n="pl"/></l>   <r>descer<s n="vblex"/></r></p></e>
+      <e><p><l>ra<s n="cir"/></l>                       <r>para<s n="pr"/></r></p></e>
+      <e><p><l>ra<s n="cir"/></l>                       <r>apesar<b />do<s n="cnjadv"/></r></p></e>
+      <e><p><l>ra<s n="n"/></l>                         <r>queixo<s n="n"/><s n="m"/></r></p></e> <!--DEP-->
+      <e><p><l>ra<s n="a"/></l>                         <r>faça<s n="vblex"/></r></p></e>
+      <e><p><l>kutẽ<s n="v"/><s n="iv"/><s n="sg"/></l> <r>cair<s n="vblex"/></r></p></e>
+      <e><p><l>tỹ<s n="cir"/></l>                       <r>com<s n="pr"/></r></p></e>
+      <e><p><l>tỹ<s n="cir"/></l>                       <r>por<s n="pr"/></r></p></e>
+      <e><p><l>ĩn<s n="n"/></l>                         <r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kãkã<s n="v"/><s n="tv"/></l>            <r>revistar<s n="vblex"/></r></p></e>
+      <e><p><l>kãkã<s n="v"/><s n="tv"/></l>            <r>vasculhar<s n="vblex"/></r></p></e>
+      <e><p><l>kãkã<s n="v"/><s n="tv"/></l>            <r>cavoucar<s n="vblex"/></r></p></e>
+      <e><p><l>nĩ<s n="v"/><s n="iv"/><s n="sg"/></l>   <r>é<s n="vblex"/></r></p></e>
+      <e><p><l>nĩ<s n="v"/><s n="iv"/><s n="sg"/></l>   <r>sentar<s n="vblex"/></r></p></e>
+      <e><p><l>nĩ<s n="n"/></l>                         <r>carne<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nĩ<s n="a"/></l>                         <r>no<b />momento<s n="adv"/></r></p></e> <!--not in dict-->
+      <e><p><l>jãnkã<s n="n"/></l>                      <r>porta<s n="n"/><s n="f"/></r></p></e> <!--DEP-->
+      <e><p><l>nón<s n="cir"/></l>                      <r>atrás<s n="adv"/></r></p></e>
+      <e><p><l>nón<s n="v"/><s n="tv"/><s n="sg"/></l>  <r>abrir<s n="vblex"/></r></p></e>
+      <e><p><l>nón<s n="n"/></l>                        <r>menor<s n="adj"/></r></p></e>
+      <e><p><l>nón<s n="n"/></l>                        <r>novo<s n="adj"/></r></p></e>
+      <e><p><l>nón<s n="cir"/></l>                      <r>após<s n="pr"/></r></p></e>
+      <e><p><l>króm<b />ke<s n="v"/><s n="iv"/></l>     <r>sair<s n="vblex"/></r></p></e>
+
+      <!--2960 Ẽg tỹ ũ mũmẽg han kỹ ẽg tóg, ti pãnĩ tá ti vóg tĩ; ẽg tỹ ti vatánh
+      vẽ. Quando queremos dar um susto em alguém, nós o pegamos por trás, assim
+      nós o assustamos.-->
+      <e><p><l>mũmẽg<s n="v"/><s n="iv"/></l>          <r>estar<b />com<b />medo<s n="vblex"/></r></p></e>
+      <e><p><l>han<s n="v"/><s n="iv"/><s n="sg"/></l> <r>sarar<s n="vblex"/></r></p></e>
+      <e><p><l>han<s n="v"/><s n="iv"/><s n="sg"/></l> <r>melhorar<s n="vblex"/></r></p></e>
+      <e><p><l>vóg<s n="v"/><s n="tv"/></l>            <r>mexer<s n="vblex"/></r></p></e>
+      <e><p><l>vatánh<s n="v"/><s n="tv"/></l>         <r>assustar<s n="vblex"/></r></p></e>
+      <e><p><l>vatánh<s n="v"/><s n="tv"/></l>         <r>contrariar<s n="vblex"/></r></p></e>
+      <e><p><l>vatánh<s n="v"/><s n="tv"/></l>         <r>enganar<s n="vblex"/></r></p></e>
+
+      <!--2411 Kejẽn ẽg japry tóg jonjor sag tĩ, kỹ ẽg tóg ti rãgfãn tĩ, ẽg tỹ
+      vẽnhrã hã ti tĩn jé. Às vezes o nosso caminho tem muitas curvas, então nós
+      o endireitamos para ficar mais reto.-->
+      <e><p><l>japry<s n="n"/></l>                <r>caminho<g><b />de<b />algo</g><s n="n"/><s n="m"/></r></p></e> <!--DEP-->
+      <e><p><l>japry<s n="n"/></l>                <r>caminho<g><b />de<b />alguém</g><s n="n"/><s n="m"/></r></p></e> <!--DEP-->
+      <e><p><l>jonjor<s n="n"/></l>               <r>ziguezague<s n="n"/><s n="m"/></r></p></e> <!--DEP-->
+      <e><p><l>jonjor<s n="n"/></l>               <r>curvas<s n="n"/><s n="f"/></r></p></e> <!--DEP-->
+      <e><p><l>sag<s n="v"/><s n="tv"/></l>       <r>atar<s n="vblex"/></r></p></e> <!--atar permanentemente-->
+      <e><p><l>sag<b />tĩ<s n="a"/></l>           <r>pendurado<s n="adj"/></r></p></e>
+      <e><p><l>rãgfãn<s n="v"/><s n="tv"/></l>    <r>endireitar<s n="vblex"/></r></p></e>
+      <e><p><l>vẽnh<b />rã<b />hã<s n="cir"/></l> <r>perto<s n="adv"/></r></p></e>
+      <e><p><l>tĩn<s n="v"/><s n="tv"/></l>       <r>fazer<b />andar<s n="vblex"/></r></p></e>
+      <e><p><l>tĩn<s n="v"/><s n="tv"/></l>       <r>passar<b />por<b />cima<b />de<s n="vblex"/></r></p></e>
+      <e><p><l>jé<s n="conj"/></l>                <r>para<s n="pr"/></r></p></e>
+      <e><p><l>jé<s n="su"/></l>                  <r>futuro<s n="adj"/></r></p></e>
+      <e><p><l>jé<s n="n"/></l>                   <r>reza<s n="n"/><s n="f"/></r></p></e>
+
+      <!--1179 Kã’ég ũ tóg sá nĩ, ũ tóg kusũg nĩ, ũ tóg tánh nĩ, ũ tóg kógnár
+      nĩ, e ti nỹtĩ. Algumas araras são pretas, outras vermelhas, outras
+      verdeazuis, outras pintadas, há muitas variedades.-->
+      <e><p><l>kã’ég<s n="n"/></l>                      <r>arara<s n="n"/><s n="f"/></r></p></e> <!--DEP-->
+      <e><p><l>sá<s n="mod"/></l>                       <r>preto<s n="adj"/></r></p></e>
+      <e><p><l>kusũg<s n="mod"/></l>                    <r>vermelho<s n="adj"/></r></p></e>
+      <e><p><l>tánh<s n="mod"/></l>                     <r>verde<s n="adj"/></r></p></e>
+      <e><p><l>tánh<s n="mod"/></l>                     <r>azul<s n="adj"/></r></p></e>
+      <e><p><l>kógnár<s n="mod"/></l>                   <r>pintado<s n="adj"/></r></p></e>
+      <e><p><l>muito<s n="mod"/></l>                    <r>muito<s n="adj"/></r></p></e>
+      <e><p><l>e<s n="v"/><s n="iv"/></l>               <r>fazer<s n="vblex"/></r></p></e>
+      <e><p><l>e<s n="v"/><s n="iv"/></l>               <r>causar<s n="vblex"/></r></p></e>
+      <e><p><l>nỹtĩ<s n="v"/><s n="iv"/><s n="pl"/></l> <r>existir<s n="vblex"/></r></p></e>
+
+      <!--1183 “Inh kã’u ã,” he tóg. “Inh mỹ ã tóg tỹ, ũ nĩ ven nĩ vẽ, hã ra ã
+      tóg tỹ, ã hã nĩ”, he tóg. “Você me assustou, pensei que você era um outro
+      mas é você mesmo”, ele falou para mim.-->
+      <e><p><l>kã’u<s n="v"/><s n="tv"/></l>           <r>assustar<s n="vblex"/></r></p></e>
+      <e><p><l>ã<s n="prn"/></l>                       <r>seu<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>ã<s n="prn"/></l>                       <r>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <!--<e><p><l>ã<s n="prn"/></l>                       <r>tu<s n="prn"/></r></p></e>-->
+      <e><p><l>ã<s n="prn"/></l>                       <r>teu<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>he<s n="v"/><s n="tv"/></l>             <r>dizer<s n="vblex"/></r></p></e>
+      <e><p><l>he<s n="intj"/></l>                     <r>sim<s n="adv"/></r></p></e>
+      <!--<e><p><l>he<s n="intj"/></l>                     <r>vou<b />fazer<s n="vblex"/></r></p></e>
+      <e><p><l>he<s n="intj"/></l>                     <r>aceito<s n="adj"/></r></p></e> -->
+      <e><p><l>mỹ<s n="cir"/></l>                      <r>para<s n="pr"/></r></p></e>
+      <e><p><l>mỹ<s n="su"/></l>                       <r>pergunta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ven<s n="v"/><s n="tv"/><s n="sg"/></l> <r>mostrar<s n="vblex"/></r></p></e>
+      <e><p><l>hã<s n="o"/></l>                        <r>igual<s n="adj"/></r></p></e>
+      <e><p><l>hã<s n="o"/></l>                        <r>parecido<s n="adj"/></r></p></e>
+      <e><p><l>hã><s n="o"/></l>                       <r>semelhante<s n="adj"/></r></p></e>
+
+      <!--966 Ẽg tỹ gĩr kanẽ kusũg kygtãn vãnh han kỹ tóg, kuprig tĩ, ti kanẽ
+      krẽ ti, kỹ tóg, ẽvãnh kórég nĩ ha. Quando não tratamos da infeção dos
+      olhos de nossos filhos, a pupila fica branca e a criança perde a visão.-->
+      <e><p><l>gĩr<s n="n"/></l>             <r>criança<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ja<s n="mod"/></l>            <r>feito<s n="adj"/></r></p></e>
+      <e><p><l>kanẽ<s n="n"/></l>            <r>olho<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kanẽ<s n="n"/></l>            <r>fruta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kanẽ<s n="v"/><s n="tv"/></l> <r>olhar<s n="vblex"/></r></p></e>
+      <e><p><l>kanẽ<s n="v"/><s n="tv"/></l> <r>procurar<s n="vblex"/></r></p></e>
+      <e><p><l>kusũg<s n="mod"/></l>         <r>vermelho<s n="adj"/></r></p></e>
+
+      <!--1401 Kyfé tỹ ag tóg, jagnẽ mĩ tỹ kririn ke ja nĩ. Eles haviam se
+      riscado um ao outro com uma faca.-->
+      <e><p><l>kyfé<s n="n"/></l>                     <r>faca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kyfé<s n="n"/></l>                     <r>ferro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ag<s n="prn"/></l>                     <r>deles<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>kririn<b />ke<s n="v"/><s n="iv"/></l> <r>riscar<s n="vblex"/></r></p></e>
+      <e><p><l>ja<s n="mod"/></l>                     <r>terminado<s n="adj"/></r></p></e>
+      <e><p><l>ja<s n="mod"/></l>                     <r>feito<s n="adj"/></r></p></e>
+
+      <!--From lexical selection-->
+      <e><p><l>ka<s n="cir"/></l>                  <r>lá<s n="adv"/></r></p></e>
+
+      <!--From structural transfer-->
+      <e><p><l>fi<s n="v"/><s n="tv"/></l>  <r>deitar<s n="vblex"/></r></p></e>
+      <e><p><l>vỹ<s n="su"/></l>            <r>realmente<s n="adv"/></r></p></e>
+      <e><p><l>kafã<s n="n"/></l>           <r>companheiro<s n="n"/></r></p></e>
+      <e><p><l>kafã<s n="n"/></l>           <r>oposto<s n="adj"/></r></p></e>
+      <e><p><l>kafã<s n="n"/></l>           <r>áspero<s n="adj"/></r></p></e>
+      <e><p><l>nũgnũj<s n="n"/></l>         <r>dobrado<s n="adj"/></r></p></e>
+      <e><p><l>kur<s n="o"/></l>            <r>rápido<s n="adj"/></r></p></e>
+      <e><p><l>kur<s n="n"/></l>            <r>roupa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kur<s n="n"/></l>            <r>vestido<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ẽgno<s n="n"/></l>           <r>caçula<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ẽgno<s n="n"/></l>           <r>último<s n="adj"/></r></p></e>
+      <e><p><l>tũg<s n="v"/><s n="iv"/></l> <r>morrer<s n="vblex"/></r></p></e>
+      <e><p><l>rã<s n="cir"/></l>           <r>perto<s n="adv"/></r></p></e>
+      <e><p><l>rã<s n="n"/></l>             <r>sol<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>rã<s n="n"/></l>             <r>maduro<s n="adj"/></r></p></e>
+      <e><p><l>rã<s n="v"/><s n="iv"/><s n="sg"/></l>  <r>entrar<s n="vblex"/></r></p></e>
+      <e><p><l>rã<s n="v"/><s n="iv"/><s n="sg"/></l>  <r>começar<s n="vblex"/></r></p></e>
+      <e><p><l>jur<s n="v"/><s n="iv"/></l> <r>chegando<s n="vblex"/></r></p></e>
+      <e><p><l>tá<s n="cir"/></l>           <r>lá<s n="adv"/></r></p></e>
+      <e><p><l>téj<s n="n"/></l>            <r>comprido<s n="adj"/></r></p></e>
+      <e><p><l>ki<s n="cir"/></l>           <r>em<s n="pr"/></r></p></e>
+      <e><p><l>ki<s n="cir"/></l>           <r>dentro<s n="adv"/></r></p></e>
+      <e><p><l>panh<s n="n"/></l>           <r>pai<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kãfór<s n="n"/></l>          <r>maior<s n="adj"/></r></p></e>
+      <e><p><l>kãfór<s n="n"/></l>          <r>mais<s n="adj"/></r></p></e>
+      <e><p><l>kyrũ<s n="n"/></l>           <r>adolescente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kyrũ<s n="n"/></l>           <r>jovem<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kyrũ<s n="n"/></l>           <r>moço<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kyrũ<s n="n"/></l>           <r>moça<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jãmré<s n="n"/></l>          <r>cunhado<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>há<s n="n"/></l>             <r>feito<s n="adj"/></r></p></e>
+      <e><p><l>há<s n="n"/></l>             <r>bom<s n="adj"/></r></p></e>
+      <e><p><l>há<s n="n"/></l>             <r>bem<s n="adj"/></r></p></e>
+      <e><p><l>ve<s n="n"/></l>             <r>aparência<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ve<s n="n"/></l>             <r>natureza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ve<s n="v"/><s n="iv"/></l>  <r>parece<s n="vblex"/></r></p></e>
+      <e><p><l>ve<s n="v"/><s n="iv"/></l>  <r>ver<s n="vblex"/></r></p></e>
+      <e><p><l>ve<s n="n"/></l>             <r>primeiro<s n="adj"/></r></p></e>
+      <e><p><l>ve<s n="n"/></l>             <r>irmã<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ẽprã<s n="cir"/></l>         <r>embaixo<s n="adv"/></r></p></e> <!-- check-->
+      <e><p><l>jagfy<s n="cir"/></l>        <r>em<b />lugar<b />de<s n="adv"/></r></p></e>
+      <e><p><l>São<b />Paulo<s n="n"/></l>  <r>São<b />Paulo<s n="n"/></r></p></e>
+      <e><p><l>Jesus<s n="n"/></l>          <r>Jesus<s n="n"/></r></p></e>
+      <e><p><l>ter<s n="v"/><s n="iv"/></l> <r>morrer<s n="vblex"/></r></p></e>
+      <e><p><l>ter<s n="v"/><s n="iv"/></l> <r>desmaiar<s n="vblex"/></r></p></e>
+      <e><p><l>ter<s n="v"/><s n="iv"/></l> <r>bêbado<s n="adj"/></r></p></e>
+
+      <!-- From polished RBMT system -->
+      <e><p><l>to<s n="cir"/></l>               <r>para<s n="pr"/></r></p></e>
+      <e><p><l>sóg<s n="n"/></l>                <r>gema<s n="n"/><s n="f"/></r></p></e> <!-- there are others-->
+      <e><p><l>sóg<s n="su"/></l>               <r>eu<s n="prn"/></r></p></e>
+      <e><p><l>nĩgtĩ<s n="a"/></l>              <r>fazer<b />sentado<s n="vblex"/></r></p></e>
+      <e><p><l>tĩg<s n="v"/><s n="iv"/></l>     <r>andar<s n="vblex"/></r></p></e>
+      <e><p><l>ha<s n="mod"/></l>               <r>agora<s n="adv"/></r></p></e>
+      <e><p><l>mẽ<s n="mod"/></l>               <r>muito<s n="adj"/></r></p></e>
+      <e><p><l>mẽ<s n="mod"/></l>               <r>ligeiro<s n="adv"/></r></p></e>
+      <e><p><l>mẽ<s n="v"/><s n="tv"/></l>      <r>cheirar<s n="vblex"/></r></p></e>
+      <e><p><l>mẽ<s n="v"/><s n="tv"/></l>      <r>escutar<s n="vblex"/></r></p></e>
+      <e><p><l>mẽ<s n="v"/><s n="tv"/></l>      <r>sentir<s n="vblex"/></r></p></e>
+      <e><p><l>mẽ<s n="v"/><s n="tv"/></l>      <r>tocar<s n="vblex"/></r></p></e>
+      <e><p><l>pẽ<s n="mod"/></l>               <r>muito<s n="adj"/></r></p></e>
+      <e><p><l>pẽ<s n="mod"/></l>               <r>verdadeiro<s n="adj"/></r></p></e>
+      <e><p><l>pẽ<s n="n"/></l>                 <r>braço<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kar<s n="n"/></l>                <r>todos<s n="pr"/></r></p></e>
+      <e><p><l>kar<b />kỹ<s n="cir"/></l>       <r>depois<s n="adv"/></r></p></e>
+      <!--<e><p><l>mág<s n="n"/></l>            <r><s n=""/></r></p></e> -->
+      <e><p><l>ẽmã<b />mág<s n="n"/></l>        <r>cidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ẽpry<b />mág<s n="n"/></l>       <r>estrada<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nén<s n="n"/></l>                <r>coisa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kã<s n="cir"/></l>               <r>dentro<s n="adv"/></r></p></e>
+      <!--<e><p><l>jẽ<s n="a"/></l>             <r>em<b />pé<s n=""/></r></p></e>
+      <e><p><l>jẽ<s n="v"/><s n="iv"/></l>      <r>para<s n="pr"/></r></p></e> -->
+      <e><p><l>kri<s n="cir"/></l>              <r>em<b />cima<s n="adv"/></r></p></e>
+      <e><p><l>isỹ<s n="cir"/></l>              <r>de<b />mim<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>isỹ<s n="cir"/></l>              <r>por<b />meio<b />de<b />mim<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>sór<s n="want"/></l>             <r>colina<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sór<s n="n"/></l>                <r>pilha<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sór<s n="mod"/></l>              <r>querer<b />fazer<s n="vblex"/></r></p></e>
+      <e><p><l>sór<s n="mod"/></l>              <r>poder<b />fazer<s n="vblex"/></r></p></e>
+      <!--<e><p><l>nỹ<s n="su"/></l>            <r>pergunta<s n="?"/></r></p></e> -->
+      <e><p><l>nỹ<s n="a"/></l>                 <r>deitado<s n="adj"/></r></p></e>
+      <e><p><l>tũ<s n="mod"/></l>               <r>não<s n="adv"/></r></p></e>
+      <e><p><l>tũ<s n="mod"/></l>               <r>terminado<s n="adv"/></r></p></e>
+      <e><p><l>tũ<s n="mod"/></l>               <r>sem<s n="pr"/></r></p></e>
+      <e><p><l>tĩgtĩ<s n="a"/></l>              <r>sempre<s n="adv"/></r></p></e>
+      <e><p><l>sĩ<s n="n"/></l>                 <r>pequeno<s n="adj"/></r></p></e>
+      <e><p><l>sĩ<s n="n"/></l>                 <r>pouco<s n="adj"/></r></p></e>
+      <e><p><l>sĩ<s n="n"/></l>                 <r>bonito<s n="adj"/></r></p></e>
+      <e><p><l>gé<s n="mod"/></l>               <r>também<s n="adv"/></r></p></e>
+      <e><p><l>gé<s n="v"/><s n="tv"/><s n="pl"/></l> <r>levar<s n="vblex"/></r></p></e>
+      <e><p><l>gé<s n="v"/><s n="tv"/><s n="pl"/></l> <r>carregar<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>mãn<s n="a"/></l>           <r>de<n />novo<s n="pr"/></r></p></e>
+      <e><p><l>mãn<s n="a"/></l>                <r>outra<b />vez<s n="pr"/></r></p></e> -->
+      <e><p><l>krẽ<s n="n"/></l>                 <r>Criciúma<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>goj<s n="n"/></l>                 <r>água<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>goj<s n="n"/></l>                 <r>rio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nẽji<s n="o"/></l>                <r>disse<s n="vblex"/></r></p></e>
+      <e><p><l>nẽji<s n="o"/></l>                <r>parece<s n="vblex"/></r></p></e>
+      <e><p><l>kãn<s n="v"/><s n="tv"/><s n="sg"/></l> <r>acabar<s n="vblex"/></r></p></e>
+      <e><p><l>kãn<s n="v"/><s n="tv"/><s n="sg"/></l> <r>terminar<s n="vblex"/></r></p></e>
+      <e><p><l>kãn<s n="v"/><s n="tv"/><s n="sg"/></l> <r>aprontar<s n="vblex"/></r></p></e>
+      <e><p><l>rãnhrãj<s n="n"/></l>             <r>trabalho<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>rãnhrãj<s n="v"/><s n="iv"/></l>  <r>trabalhar<s n="vblex"/></r></p></e>
+      <e><p><l>mẽg<s n="n"/></l>                 <r>criação<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mẽg<s n="n"/></l>                 <r>animais<b />domésticos<s n="n"/></r></p></e>
+      <e><p><l>Topẽ<s n="n"/></l>                <r>Deus<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>si<s n="n"/></l>                  <r>velho<s n="adj"/></r></p></e>
+      <e><p><l>gãr<s n="n"/></l>                 <r>milho<s n="n"/><s n="m"/></r></p></e>
+      <!--<e><p><l>jafã<s n="a"/></l>            <r>para<b />fazer<s n="pr"/></r></p></e>-->
+      <!--<e><p><l>nĩn<s n="a"/></l>             <r>?<s n="pr"/></r></p></e>-->
+      <e><p><l>kamĩjũ<b />mág<s n="n"/></l>                          <r>caminhão<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kukrũ<s n="n"/></l>                                   <r>panela<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kukén<s n="v"/><s n="tv"/></l>                        <r>raspar<s n="vblex"/></r></p></e>
+      <e><p><l>kygpe<s n="v"/><s n="tv"/><s n="pl"/></l>             <r>lavar<s n="vblex"/></r></p></e>
+      <e><p><l>prẽr<s n="v"/><s n="iv"/><s n="sg"/></l>              <r>gritar<s n="vblex"/></r></p></e>
+      <e><p><l>rãnhrãnh<b />ke<s n="v"/><s n="iv"/><s n="pl"/></l>   <r>barulho<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ré<b />kỹ<b />tĩg<s n="v"/><s n="sv"/></l>            <r>abandonar<s n="vblex"/></r></p></e>
+      <e><p><l>régrég<s n="v"/><s n="tv"/></l>                       <r>copiar<s n="vblex"/></r></p></e>
+      <e><p><l>rẽg<s n="v"/><s n="iv"/><s n="sg"/></l>               <r>mergulhar<s n="vblex"/></r></p></e>
+      <e><p><l>re<b />ger<s n="n"/></l>                              <r>cidreira<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fẽgnu<s n="n"/></l>                                   <r>vespa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fagrĩnh<b />mỹ<s n="cir"/></l>                        <r>em<b />vão<s n="adv"/></r></p></e>
+      <e><p><l>gỹnja<b />he<s n="v"/><s n="iv"/></l>                 <r>ganhar<s n="vblex"/></r></p></e>
+      <e><p><l>jug<b />jug<b />he<s n="v"/><s n="iv"/></l>           <r>chutar<s n="vblex"/></r></p></e>
+      <e><p><l>jy<s n="cir"/></l>                                    <r>antes<s n="adv"/></r></p></e>
+      <e><p><l>kanér<s n="n"/></l>                                   <r>liso<s n="adj"/></r></p></e>
+      <e><p><l>nija<s n="n"/></l>                                    <r>dia<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nĩgja<s n="n"/></l>                                   <r>cadeira<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nỹgnỹn<s n="v"/><s n="tv"/></l>                       <r>puxar<s n="vblex"/></r></p></e>
+      <e><p><l>péróg<s n="n"/></l>                                   <r>bolsa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>pirã<s n="n"/></l>                                    <r>peixe<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>rũm<s n="v"/><s n="iv"/><s n="sg"/></l>               <r>mexer<s n="vblex"/></r></p></e>
+      <e><p><l>hur<s n="o"/></l>                                     <r>já<s n="adv"/></r></p></e>
+      <e><p><l>hỹn<s n="o"/></l>                                     <r>provavelmente<s n="adv"/></r></p></e>
+      <e><p><l>jakrẽm<s n="cir"/></l>                                <r>abaixo<s n="adv"/></r></p></e>
+      <e><p><l>jãnkamy<s n="n"/></l>                                 <r>dinheiro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jãnkénh<s n="v"/><s n="tv"/></l>                      <r>dividir<s n="vblex"/></r></p></e>
+      <e><p><l>jótiti<s n="n"/></l>                                  <r>esquilo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jynhkén<s n="n"/></l>                                 <r>lagarto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ka<b />pẽ<s n="n"/></l>                               <r>galho<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mỹg<b />fẽr<s n="n"/></l>                             <r>abelha<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nhinsu<s n="n"/></l>                                  <r>coelho<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ón<s n="v"/><s n="iv"/></l>                           <r>mentir<s n="vblex"/></r></p></e>
+      <e><p><l>rỹnh<s n="v"/><s n="tv"/></l>                         <r>machucar<s n="vblex"/></r></p></e>
+      <e><p><l>tãvĩn<s n="v"/><s n="tv"/></l>                        <r>piorar<s n="vblex"/></r></p></e>
+      <e><p><l>ver<s n="cir"/></l>                                   <r>ainda<s n="adv"/></r></p></e>
+      <e><p><l>vẽnh<b />kuhur<s n="n"/></l>                          <r>tosse<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>vỹn<b />ke<s n="v"/><s n="iv"/></l>                   <r>voltar<s n="vblex"/></r></p></e>
+      <e><p><l>vẽsóg<b />ki<s n="cir"/></l>                          <r>sozinho<s n="adj"/></r></p></e>
+      <e><p><l>jakãnh<b />tá<s n="cir"/></l>                         <r>esquerdo<s n="adj"/></r></p></e>
+      <e><p><l>ĩn<b />kri<b />ĩn<s n="n"/></l>                       <r>telhado<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>goj<b />vãso<s n="n"/></l>                            <r>ilha<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ẽgóho<s n="n"/></l>                                   <r>capoeira<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fũrũn<s n="v"/><s n="iv"/></l>                        <r>correr<s n="vblex"/></r></p></e>
+
+      <!-- For lexical selection -->
+      <e><p><l>fy<s n="n"/></l>                                      <r>semente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fy<s n="n"/></l>                                      <r>trança<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kãfa<s n="n"/></l>                                    <r>planta<b />medicinal<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ẽkré<s n="n"/></l>                                    <r>plantação<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jakre<s n="n"/></l>                                   <r>plantação<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kré<s n="n"/></l>                                     <r>plantação<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fág<s n="n"/></l>                                     <r>pinheiro<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fa<s n="n"/></l>                                      <r>planta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ẽkré<s n="n"/></l>                                    <r>planta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jého<s n="n"/></l>                                    <r>abóbora<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>krãn<s n="v"/><s n="tv"/></l>                         <r>plantar<s n="vblex"/></r></p></e>
+      <e><p><l>ov<s n="n"/></l>                                      <r>ovo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>o<s n="n"/></l>                                       <r>ovo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>garĩnh<s n="n"/></l>                                  <r>galinhas<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>krĩ<s n="n"/></l>                                     <r>cabeça<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>krĩ<s n="n"/></l>                                     <r>montanha<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Kanhgág<s n="n"/></l>                                 <r>índio<s n="n"/><s n="m"/></r></p></e>
+
+      <!-- For final project; goal of 85% coverage-->
+      <e><p><l>aronh<s n="n"/></l>                              <r>arroz<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>asuka<s n="n"/></l>                              <r>açúcar<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>a’a’<b />ke<s n="v"/><s n="iv"/></l>             <r>arrotar<s n="vblex"/></r></p></e>
+      <e><p><l>he<s n="v"/><s n="iv"/><s n="sg"/></l>           <r>avalar<b />água<s n="vblex"/></r></p></e>
+      <e><p><l>ãg’ãg<b />he<s n="v"/><s n="iv"/><s n="pl"/></l> <r>avalar<b />água<s n="vblex"/></r></p></e>
+      <e><p><l>ãnh<b />ke<s n="v"/><s n="iv"/></l>              <r>gritar<s n="vblex"/></r></p></e>
+      <e><p><l>e<s n="mod"/></l>                                <r>muito<s n="adv"/></r></p></e>
+      <e><p><l>e<s n="v"/><s n="iv"/></l>                       <r>causar<s n="vblex"/></r></p></e>
+      <e><p><l>enhtuno<s n="n"/></l>                            <r>estudo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>é<b />e<s n="v"/><s n="iv"/></l>                 <r>vomitar<s n="vblex"/></r></p></e>
+      <e><p><l>ẽpry<s n="n"/></l>                               <r>caminho<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ẽpry<b />kafy<s n="n"/></l>                      <r>beco<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ẽpry<b />mág<s n="n"/></l>                       <r>estrada<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ẽpry<b />sá<s n="n"/></l>                        <r>asfalto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ẽpry<b />vẽnhkãpóv<s n="n"/></l>                 <r>encruzilhada<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ẽpỹ<s n="n"/></l>                                <r>roça<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ẽvãnh<s n="v"/><s n="iv"/></l>                   <r>enxergar<s n="vblex"/></r></p></e>
+      <e><p><l>fa<s n="n"/></l>                                 <r>perna<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fa<s n="n"/></l>                                 <r>planta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fa<s n="n"/></l>                                 <r>amargo<s n="adj"/></r></p></e>
+      <e><p><l>fa<s n="v"/><s n="tv"/></l>                      <r>lavar<s n="vblex"/></r></p></e>
+      <e><p><l>fa<b />kryr<s n="n"/></l>                        <r>lado<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jẽ<s n="a"/></l>                                 <r>em<b />pé<s n="adv"/></r></p></e>
+      <e><p><l>jẽ<b />jẽn<s n="v"/><s n="tv"/></l>              <r>desistir<s n="vblex"/></r></p></e>
+      <e><p><l>ma<b />jẽ<s n="v"/><s n="tv"/></l>               <r>guardar<s n="vblex"/></r></p></e>
+      <e><p><l>mré<b />jẽ<s n="v"/><s n="sv"/></l>              <r>morar<b />com<s n="vblex"/></r></p></e>
+      <e><p><l>ẽmã<b />mág<s n="n"/></l>                        <r>cidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fe<b />mág<s n="n"/></l>                         <r>forte<s n="adj"/></r></p></e>
+      <e><p><l>ka<b />mág<s n="n"/></l>                         <r>borrachudo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mág<s n="n"/></l>                                <r>grande<s n="adj"/></r></p></e>
+      <e><p><l>kaga<s n="n"/></l>                               <r>doente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>kaga<s n="n"/></l>                               <r>dor<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kaga<s n="n"/></l>                               <r>doença<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mỹ<b />kaga<s n="n"/></l>                        <r>sofrimento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>vẽnh<b />mãn<s n="v"/><s n="iv"/></l>            <r>reunir<s n="vblex"/></r></p></e>
+      <e><p><l>tugmãn<s n="v"/><s n="tv"/></l>                  <r>lamber<s n="vblex"/></r></p></e>
+      <e><p><l>pénmãn<s n="v"/><s n="tv"/></l>                  <r>embebedar<s n="vblex"/></r></p></e>
+      <e><p><l>mãn<s n="mod"/></l>                              <r>de<b />novo<s n="adv"/></r></p></e>
+      <e><p><l>mãn<s n="mod"/></l>                              <r>outra<b />vez<s n="adv"/></r></p></e>
+      <e><p><l>mãn<s n="v"/><s n="tv"/><s n="sg"/></l>          <r>pegar<s n="vblex"/></r></p></e>
+      <e><p><l>mãn<s n="v"/><s n="tv"/><s n="sg"/></l>          <r>carregar<s n="vblex"/></r></p></e>
+      <e><p><l>hinhin<b />he<b />jafã<s n="n"/></l>             <r>balanço<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jafã<s n="n"/></l>                               <r>coisa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jãgja<b />jafã<s n="n"/></l>                     <r>fermento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>vẽnh<b />fãg<b />jafã<s n="n"/></l>              <r>perfume<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>huri<s n="o"/></l>                               <r>já<s n="adv"/></r></p></e>
+      <e><p><l>hẽ<s n="o"/></l>                                 <r>igual<s n="adj"/></r></p></e>
+      <e><p><l>hẽ<s n="o"/></l>                                 <r>parecido<s n="adj"/></r></p></e>
+      <e><p><l>hẽ<s n="o"/></l>                                 <r>semelhante<s n="adj"/></r></p></e>
+      <e><p><l>hã<b />jé<s n="conj"/></l>                       <r>é<b />por<b />isso<b />que<s n="cnjadv"/></r></p></e>
+      <e><p><l>hã<b />kato<s n="conj"/></l>                     <r>ao<b />invés<b />de<s n="cnjadv"/></r></p></e>
+      <e><p><l>hã<b />kỹ<s n="conj"/></l>                       <r>por<b />isso<s n="cnjadv"/></r></p></e>
+      <e><p><l>hã<b />kỹ<s n="conj"/></l>                       <r>assim<s n="adv"/></r></p></e>
+      <e><p><l>hã<b />ra<s n="conj"/></l>                       <r>mas<s n="cnjcoo"/></r></p></e>
+      <e><p><l>hã<b />ra<s n="conj"/></l>                       <r>então<s n="adv"/></r></p></e>
+      <e><p><l>hã<b />ri<s n="conj"/></l>                       <r>igual<b />a<s n="adv"/></r></p></e>
+      <e><p><l>hã<b />to<s n="conj"/></l>                       <r>apenas<s n="adv"/></r></p></e>
+      <e><p><l>hã<b />tugrín<s n="conj"/></l>                   <r>por<b />isso<s n="cnjadv"/></r></p></e>
+      <e><p><l>hã<b />tÿ<s n="conj"/></l>                       <r>assim<s n="cnjadv"/></r></p></e>
+      <e><p><l>hã<b />ve<s n="conj"/></l>                       <r>parecer<s n="vblex"/></r></p></e>
+      <e><p><l>hãg<b />he<s n="v"/><s n="iv"/></l>              <r>bocejar<s n="vblex"/></r></p></e>
+      <e><p><l>hãghã<s n="n"/></l>                              <r>sede<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>hẽ<s n="prn"/></l>                               <r>qual<s n="adj"/></r></p></e>
+      <e><p><l>vyr<s n="v"/><s n="iv"/><s n="sg"/></l>          <r>foi<s n="vblex"/></r></p></e>
+      <e><p><l>vyr<b />mỹ<s n="cir"/></l>                       <r>separado<s n="adj"/></r></p></e>
+      <e><p><l>kórég<s n="n"/></l>                              <r>feio<s n="adj"/></r></p></e>
+      <e><p><l>kórég<s n="n"/></l>                              <r>pobre<s n="adj"/></r></p></e>
+      <e><p><l>kórég<s n="n"/></l>                              <r>estragado<s n="adj"/></r></p></e>
+      <e><p><l>rãké<s n="cir"/></l>                             <r>tarde<s n="adv"/></r></p></e>
+      <e><p><l>rãké<b />tá<s n="cir"/></l>                      <r>ontem<s n="adv"/></r></p></e>
+      <e><p><l>véké<s n="cir"/></l>                             <r>em<b />vão<s n="adv"/></r></p></e>
+      <e><p><l>véké<s n="cir"/></l>                             <r>de<b />graça<s n="adv"/></r></p></e>
+      <e><p><l>ri<s n="cir"/></l>                               <r>como<s n="adv"/></r></p></e>
+      <e><p><l>nĩm<s n="v"/><s n="tv"/></l>                     <r>dar<s n="vblex"/></r></p></e>
+      <e><p><l>nỹgtĩ<s n="a"/></l>                              <r>deitado<s n="adj"/></r></p></e>
+      <e><p><l>fe<s n="n"/></l>                                 <r>peito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fe<s n="n"/></l>                                 <r>coração<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fe<b />góv<s n="n"/></l>                         <r>morto<s n="adj"/></r></p></e>
+      <e><p><l>fe<b />góv<s n="n"/></l>                         <r>calmo<s n="adj"/></r></p></e>
+      <e><p><l>fe<b />há<s n="n"/></l>                          <r>feliz<s n="adj"/></r></p></e>
+      <e><p><l>fe<b />mrir<s n="n"/></l>                        <r>feliz<s n="adj"/></r></p></e>
+      <e><p><l>fe<b />mrũn<s n="n"/></l>                        <r>veia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fe<b />kãnhvy<s n="n"/></l>                      <r>alegria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fe<b />kãnhvy<s n="n"/></l>                      <r>pulmão<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fe<b />krój<s n="n"/></l>                        <r>fraco<s n="adj"/></r></p></e>
+      <e><p><l>fe<b />pẽ<s n="n"/></l>                          <r>amor<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pẽn<s n="n"/></l>                                <r>pé<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pẽn<b />juféj<s n="n"/></l>                      <r>dedos<b />do<b />pé<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jykre<s n="n"/></l>                              <r>sistema<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jykre<s n="n"/></l>                              <r>costume<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jykre<s n="n"/></l>                              <r>pensamento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jykre<s n="n"/></l>                              <r>lei<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tó<s n="n"/></l>                                 <r>contar<s n="vblex"/></r></p></e>
+      <e><p><l>tó<s n="n"/></l>                                 <r>dizer<s n="vblex"/></r></p></e>
+      <e><p><l>ge<s n="n"/></l>                                 <r>semelhante<s n="adj"/></r></p></e>
+      <e><p><l>ge<s n="mod"/></l>                               <r>então<s n="adv"/></r></p></e>
+      <e><p><l>ge<s n="mod"/></l>                               <r>também<s n="adv"/></r></p></e>
+      <e><p><l>pã<s n="n"/></l>                                 <r>embrulho<s n="n"/><s n="m"/></r></p></e>
+
+      <!-- pronouns: fixed -->
+      <e><p><l>inh<s n="prn"/><s n="p1"/><s n="sg"/></l>            <r>eu<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>ẽ<s n="prn"/><s n="p2"/><s n="sg"/></l>              <r>você<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>ã<s n="prn"/><s n="p2"/><s n="sg"/></l>              <r>você<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>ãjag<s n="prn"/><s n="p2"/><s n="pl"/></l>           <r>vocês<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>ti<s n="prn"/><s n="p3"/><s n="nf"/><s n="sg"/></l>  <r>ele<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ag<s n="prn"/><s n="p3"/><s n="nf"/><s n="pl"/></l>  <r>eles<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>fi<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></l>   <r>ela<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>fag<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></l>  <r>elas<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ẽg<s n="prn"/><s n="p1"/><s n="pl"/></l>             <r>nós<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>tag<s n="prn"/><s n="dem"/><s n="prx"/></l>          <r>esse<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tã<s n="prn"/><s n="dem"/><s n="dst"/></l>           <r>aquele<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ẽn<s n="prn"/><s n="dem"/></l>                       <r>aquilo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jagnẽ<s n="prn"/><s n="ref"/></l>                    <r>um<b />ao<b />outro<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>vẽnh<s n="prn"/><s n="ref"/></l>                     <r>si<b />mesmo<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>ũ<s n="prn"/><s n="ind"/></l>                        <r>um<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ũ<s n="prn"/><s n="ind"/></l>                        <r>alguém<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ũn<s n="prn"/><s n="rel"/></l>                       <r>aquele<s n="n"/><s n="m"/></r></p></e>
+
+      <!--
+      <e><p><l>nĩn<b />kỹ<s n="n"/></l>                          <r><s n=""/></r></p></e>
+      <e><p><l>ké<s n="n"/></l>                                      <r>grande<s n="adj"/></r></p></e>
+      <e><p><l>kãmĩ<s n="n"/></l>                                    <r>grande<s n="adj"/></r></p></e>
+      <e><p><l>vãnh<s n="n"/></l>                                    <r>grande<s n="adj"/></r></p></e>
+      <e><p><l>jũ<s n="n"/></l>                                      <r>grande<s n="adj"/></r></p></e>
+      <e><p><l>rá<s n="n"/></l>                                      <r>grande<s n="adj"/></r></p></e>
+      <e><p><l>nẽ<s n="n"/></l>                                      <r>grande<s n="adj"/></r></p></e> -->
+
+
+
+
+      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>,</re>  <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+   </section>
+</dictionary>
+
+<!--2682 Kãnkãn inh huri, inh vẽnh rá ti. Já terminei de escrever.-->
+<!--2611 Ker inh ĩn kãmĩ sugsug hẽ’. Não cuspa dentro da minha casa.-->
+<!--2968 Ẽg jamã ki goj vỹ, vánvar nỹtĩ, ta kutẽ kar kỹ. Os rios da nossa
+aldeia transbordam depois da chuva.-->
+<!--478 Ẽg tỹ ratérnã tũ nĩn kỹ ẽg tóg, vãn tóg tỹ hupũr han tĩ, ẽg tỹ
+vẽjy ven jé, ẽpry jagma. Quando não temos uma lanterna, acendemos uma
+taquara seca para iluminar o caminho na nossa frente.-->
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/Bilingual_dictionary
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+-->

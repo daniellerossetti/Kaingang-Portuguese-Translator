@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- kgp → por -->
+
+  <mode name="kgp-por" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="kgp-por.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w -1 -n">
+        <file name="kgp-por.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="kgp-por.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="kgp-por.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-kgp-por.kgp-por.t1x"/>
+        <file name="kgp-por.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-kgp-por.kgp-por.t2x"/>
+        <file name="kgp-por.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-kgp-por.kgp-por.t3x"/>
+        <file name="kgp-por.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="kgp-por.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="kgp-por.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- por → kgp -->
+
+  <mode name="por-kgp" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="por-kgp.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w -1 -n">
+        <file name="por-kgp.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="por-kgp.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="por-kgp.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-kgp-por.por-kgp.t1x"/>
+        <file name="por-kgp.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-kgp-por.por-kgp.t2x"/>
+        <file name="por-kgp.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-kgp-por.por-kgp.t3x"/>
+        <file name="por-kgp.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="por-kgp.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="por-kgp.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
