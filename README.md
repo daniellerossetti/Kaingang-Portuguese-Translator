@@ -1,14 +1,14 @@
 # Kaingang-Portuguese-Translator
 
-#To install:
+To install:
 check apertium.org
   
   
-#To clone, type in command line:
+To clone, type in command line:
 git clone https://github.com/daniellerossetti/Kaingang-Portuguese-Translator/
   
   
-#To use, type in command line:
+To use, type in command line:
 
  cd Kaingang-Portuguese-Translator
  
